@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+    border-radius: 10px;
+}
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#container{
+    width: 80%;
+    height: 90vh;
+    background-color: papayawhip;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#cardMain{
+    background-color: pink;
+    width: 400px;
+    height: 500px;
+    box-shadow: 15px 20px 16px 0px #eac0ffab;
+}
+
+#cardMain .qrCode{ 
+    background-color: #dcd4dc;
+    height: 65%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.infoClient{
+    height: 35%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.infoClient .form-group{
+    text-align: center;
+}
